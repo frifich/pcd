@@ -1,0 +1,65 @@
+les arrhythmies 
+[USING PAN TOMPKIN’S METHOD, ECG SIGNAL PROCESSING AND
+DIGNOSE VARIOUS DISEASES IN MATLAB
+SHITAL L. PINGALE
+Department Instrumentation and control Engineering, Name of organization – Cummins college of Engineering for women’s
+Karvenagar, Pune, India(411052).]
+
+3.Common Diseases of Heart
+There are many disease related to heart some of them
+as fallows-:
+3.1 Common Diseases of Heart
+i. Chest pain ,which could be caused by heart attack.
+ii. Inflammation of the sac of heart.
+iii. Shortness of breathing.
+iv. Irregular heart beat(palpitation).
+ECG recordings can be used as a diagnostic tool to
+determine abnormalities in cardiac function or it can
+be visualize the effects of cardiac tissue damage.
+Abnormalities in the QRS complex indicate problems
+in the ventricles or ventricular conduction. In normal
+ECG, T wave is of positive amplitude but in abnormal
+ECG, the T wave can be inverted having negative
+amplitude. There are various abnormal ECG and some
+ECG we discuss here:
+3.1.1 i Sinus Bradycardia.
+Bradycardia is a term to describe the heart beating
+more slowly than normal. Sinus bradycardia can occur
+in well-conditioned athletes and during sleep
+relaxation. In the case of athletes, the heart muscle is
+tremendously strong and efficient at pumping blood,
+therefore, less contraction needed. During deep
+relaxation, the body is at rest and requires less oxygen
+consumption than during normal activity which
+allows the heart rate to slow. However, sinus
+bradycardia can also occur as a result of heart disease
+or as a reaction to medication.
+2.1.2 ii Sinus Tachycardia
+Excessive heart rate above 100 beats per minute
+(BPM) which originates from the SA node. Causes
+include fright, stress, illness and exercise. It is
+essential to identify one P for each QRS. It may be
+difficult to differentiate a sinus tachyarrhythmia from
+an atrial tachyarrhythmia.
+2.1.3 iii Atrial Flutter
+Atrial flutter is a condition where there are multiple
+atrial contractions for every ventricular contraction. It
+is caused by a single large electrical signal that
+propagates around the atria. The rate of atrial
+contraction can be between 200 and 350 beats per
+minutes. The amount of blood being pumped by the
+atria can be very small as a result of one side of the
+atria being contracted while the other being relaxed.
+The electrical signals enter the AV node at a rate that
+is too rapid to create a ventricular contraction for every
+atrial contraction. As a result, there are multiples
+P-waves in the ECG for every QRS-T complex.
+2.1.4 iv. Ventricular Flutter
+In this cardiac arrhythmia, the verticals can be paced
+at more than 200 beats per second. This can be
+triggered by an extrasystole or ectopic pacemaker that
+occurs in the ventricles. The pumping of blood
+becomes extremely inefficient. There is no visible P
+wave in the ECG recording and the QRS complex and
+T wave are merged in regularly occurring waves with
+a frequency between 180 to 250 beats per minute

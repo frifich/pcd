@@ -1,0 +1,32 @@
+==> The Pan Tompkins algorithm.
+-> The QRS-complex detection process is difficult because of the various types of noise that are present in the signal:
+    * Muscle noise, electrodes motion, power-line interference, and the T-wave which have similar high-frequency QRS-complex characteristics.
+    * Digital filters reduce the effects of these noise sources, and thereby improve the signal-to-noise ratio
+ of the various noise
+
+-> The Pan Tompkins algorithm is a "real time algorithm for QRS complexes detection of ECG signals" [Abstract of original paper by Jiaen PAN and Willis TOMPKINS]
+
+-> The Pan Tompkins algorithm uses a cascading blocks of linear digital filters, nonlinear transformations and a decision rule.
+    [insert block diagram]
+    [raw ecg signal for sick and healthy patient of MIT BIH]
+-> Linear process is the bandpass filter, the derivative and the moving window integrator.
+    [filtered and differentiated signal of both subjects]
+-> Nonlinear transformation is the signal amplitude squaring.
+    [squared signal of both subjects]
+-> Adaptive threshold for T-wave discrimination is the decision rule.
+       ** Every peak is classified either as a QRS peak, or a noise peak (T-wave)
+    [integrated and peaks detected]
+-> Test results on MIT BIH
+    [insert pantompkins_test]
+
+-> QRS complex is a very informative feature of the ECG and hence of the heart activity.
+    * An opportunity to automate detection of abnormal heart activity
+
+-> In our case we chose to detect PVC affected beats
+    * PVC is //TODO: what is PVC?
+    * Detection of PVC can hereby be automated checking variations in R-to-R interval duration.
+    * A skipped beat is detected if RRp / RRc is higher or lower than 99% RR_avg
+    * PVC is announced if three or more consecutive skipped beats occur in ECG sequence.
+
+-> Test results on patient 106 of MIT BIH.
+    [insert patient106_test]

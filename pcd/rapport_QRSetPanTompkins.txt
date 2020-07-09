@@ -1,0 +1,7 @@
+QRS complexe 
+the QRS complexe is  the deflection seen on a normal ECG signal caused by various depolarizations within the heart cells(change in electrical charge distribution within the heart cells resulting in the cells being negatively charged). It is the most visually obvious part of the ECG.  It is periodic through the ECG and lasts 80 to 120 ms. The QRS complexe is very representative of the heart's activity. 
+We can calculate metrics out of this complexe that can tell if the heart activity is normal or indicating arrythmias. Essentially, we're interested in the duration, amplitude and the morphology of the QRS complexe. 
+The QRS complexe is made up of three waves: A downward deflection called the Q wave, a upward deflection called the R wave then again a downward deflection called the S wave. 
+image1 QRS_complexe
+[Created by Agateller (Anthony Atkielski), converted to svg by atom. - SinusRhythmLabels.png, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1560893]
+The Q and S wave are very semilar structures in the ECG, though caused by different heart cells depolarization. They are small in amplitude compared to the R wave and can, and will be in this work, assumed to be equally far from the R-peaks of the R wave. The R wave corresponds to the ventricular depolarization and is the greatest in amplitude of all five ECG waves (P, Q, R, S, T and U). 

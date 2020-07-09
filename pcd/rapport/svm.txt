@@ -1,0 +1,12 @@
+[Support Vector Machine classification]
+Any classification attemp begins with deciding on a feature vector for the data to be classified. In our case, the ECG digital signal is sufficiently represented by its morphological features. In this chapter we will explain the SVM method of classification and present the parameter we used in our case 
+[SVM Classification]
+Support Vector Machine classification method is an iterating way of solving the optimization problem of finding a hyperplane that is equally distant from the different clusters of a set of data observations. Hence, this method supposes that the observations space is lineary seprable and that we aquire in advance a set of labled data, i.e. a supervised learning method. 
+Using gradient descent, we initialize at a random starting point of the plane. Then, calculating the gradient descent of the objective function evaluated at the current position we know which direction and how far to move the function variables to approach the objective function. 
+This method is relatively easy and computationally low cost comparing to other optimization techniques used in machine learning. Furthermore, if the clusters are showing veri little overlap in the observation space, the SVM algorithm will need much less data than other mothers like KNN and K-means. 
+In our case we choose the MIT BIH physionet ECG database to do the training. This database was collected and annotated at Massachussets Institute of Technology, Boston, United States. It gathers
+The database appeared in this article: 
+[Moody GB, Mark RG. The impact of the MIT-BIT Arrhythmia Database. IEEE Eng in Med and Biol 20(3):45-50 (May-June 2001). (PMID: 11446209)
+Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. Circulation 101(23):e215-e220 [Circulation Electronic Pages; http://circ.ahajournals.org/content/101/23/e215.full]; 2000 (June 13)]
+The features considered were the six combination of distances between the R, Q and S peaks. The are called in litrature the ECG-intervals, or the ECG-segments. 
+The training was one on all the database on our local machine using numpy and scikit-learn python libraries for algebra and numerical calculus. 

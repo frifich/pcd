@@ -1,0 +1,9 @@
+[features]
+For every signal, we detect its QRS complex. Then after detecting the Q, R and S peaks, we form a a 9-dimensional array of features. For each of the respective waves we calculate: 
+Pre-peak: The distance to the previous similar peak. e.g. q[i] - q[i - 1] for the Q-wave. 
+Post-peak: Th distance to the next similar peak. e.g. q[i + 1] - q[i] for the Q-wave.
+Ampliture: The amplitude of the raw-unfiltered ECG at that peak. 
+The MIT BIH database signals come labeled with annotations files, that classify different peaks as normal 'N' or abnormal '<> N'. We, interested in a binary classification of the ECG, labeled the feature vectors by '1' for every normal healthy peak and '-1' for every non-healthy peak. 
+[Results] 
+We trained the svm-classifier using sklearn.svm package. We trained the model on 70% of the labeled data and tested it on the remaining 30%. 
+  

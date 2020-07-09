@@ -1,0 +1,34 @@
+-> When an arrhythmia appears the system automatically stores the abnormal ECG sequence and sends it to the doctor for diagnosis.
+
+-> The QRS-complex detection process is difficult because of the various types of noise that are present in the signal:
+    * Muscle noise, electrodes motion, power-line interference, and the T-wave which have similar high-frequency QRS-complex characteristics.
+    * Digital filters reduce the effects of these noise sources, and thereby improve the signal-to-noise ratio
+
+-> The Pan Tompkins algorithm uses linear digital filters, nonlinear transformations and decision rule algorithms.
+    * Linear process is the bandpass filter, the derivative and the moving window integrator.
+    * Nonlinear transformation is the signal amplitude squaring.
+    * Adaptive threshold T-wave discrimination are the rule decision algorithm.
+
+-> What is moving window integration?
+    * In this scope the moving integrator window produces a signal that includes information about the slope and the width of the QRS complex.
+
+-> Why not use a straightforward method to detect the R slope and just pass the ECG through a derivative analog circuit?
+    * Well because, by its nature this circuit amplifies the undesirable higher frequency noise components.
+    * Also many QRS complexes have large amplitudes and long durations. These complexes will be missed through a purely derivative approach.
+
+    => Detecting the R slope alone is inefficient for detecting the QRS complex. The Pan_Tompkins algorithm uses in addition the width, amplitude and the energy.
+
+
+-> The processing of the algorithm is done with integer arithmetic so that the algorithm can operate in real time without high computing power.
+
+-> The MIT-BIH database provides two simultaneous ECG channels.
+
+-> What is a signal channel?
+    * A communication channel of simply a channel refers to a physical transmission medium such as a wire,
+    * A physical transmission medium, or the channel in this case have an error rate characteristic, often measured in bit error rate.
+    * or to a logical connection over a multiplexed medium such as radio channel in telecommunications and computer networking.
+    * A channel has capacity for transmitting information (a stream of bits) often measured by its bandwidth in Hz or its data rate in bits per second.
+
+    * A channel can be modeled physically by trying to calculate the physical processes which modify the transmitted signal.
+    * Statistically a communication channel is usually modeled as a triple consisting of an input alphabet, an output alphabet,
+    * and for each pair (i,o) of input/ output elements a transition probability p((i,o)).

@@ -1,0 +1,38 @@
+Introduction
+In this chapter we will first present the basic functionning of the heart, second the purpose and principal of electrogardiograph analysis (ECG) and last we will site the arrhythmia detectable of ECG analysis. 
+The heart
+The heart pomps blood into the cardiovascular system, which is responsible of transfering blood and plasma to and from all body organs and muscles. Plasma contains nutrients essential for cell bulding and blood holds the oxygen cells need to metabolize.
+The heart is divided into four chambers: upper left and right atria and lower left and right ventricles. The right altrium and ventricle are referred together as the right heart and their left counter part as the left heart. In a healthy heart, the blood flood flows one way  through the heart due to heart valves. The heart is enclosed in a protectice sac, the pericardium. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.
+The heart pumps blood with a rhythm determined by a group of peacemaking cells in the sinoatrial node. The heart beats at a resting rate of 72 beats per minute. 
+Electrocardiograph
+Electrocardiography (ECG or EKG) is the process of recording the electrical activity of the heart over a period of time using electrodes placed on the skin. It is a very common performed cardiology test. Cardiologists often use ECG to diagnose heart diseases because it is noninvasive, yet very informative. 
+The ECG is not a direct mesure of the depolarization and repolarization, but rather the relative and cumulative magnitude of populations of cells eliciting changes in their membrane potentials at a given point in time. 
+
+The ECG wave form 
+the ECG is a reading of voltage vs time in millivolts (mV) per seconds (s). 
+
+Current solutions
+Many portable healthcare equipments are present on the market nowadays. ECG monitors are no exception. Patients can buy small portable devices, which will not affect their everyday life, to mesure the electrical activity of their heart without having to visit a medical facility. In this section we will present two examples of portable ECG monitors available on the market.
+
+Portable Handheld home ECG EKG Heart Monitor MD100B from 
+ChoiceMmed
+
+This tool costs 149$ and is sold for home and portable usage. The patient can relatively easily use it to mesure his/ her ECG. The tool is neither invasive nor demanding expertise to use. The tool can tell the patient about key heart metrics like heart beat rate. Also, some functionalities are present to detect very serious heart dysfunction.
+Limitations  
+However useful the tool is, the ChoiceMmed cannot provide a substitute for normal ECG, but merely to be used in regular time periods to detect frequently abnormal heart activity. Because the ChoiceMmed cannot provide accurate automated interpretation of the ECG, the user must attend to regular checks. Furthermore, not all abnormal ECG signal are easily detected by the untrained eye. For example, some heart dysfunction can be detected in its early stages by a cardialogist which is not detected by the ChoiceMmed equipment. 
+
+ECG Necklace [https://www.ecgnecklace.com/wearable-ecg-physical-activity-monitor/]
+
+The ECG Necklace enables researchers to collect reliable, accurate ECG and physical activity data in real-life situations. For healthcare applications, the compact design has a positive effect on compliance. Furthermore, the technology is highly suitable for applications that require long term ECG telemonitoring of people in their home environment. The unique combination of features provides a solid foundation for the realization of new applications in health care and research.
+
+Typical applications include:
+
+HRV (heart rate variability) measurements
+Validation of PPG or chest strap Heart Rate sensors against ECG
+ECG holter monitoring
+The ECG and activity signals can be translated by algorithms into meaningful information for use in an app on a smartphone or tablet. The collected ECG data can be exported for processing in common software packages such as Matlab or Excel. The electrocardiogram (ECG) and physical activity can be measured in real-time. The measured data is stored on the device. A compact battery powers the system. Depending on the application, the platform can be adjusted to customer specific requirements. The open platform technology allows researchers and care providers to integrate the measurement solution optimally into their applications. Furthermore, the available platform can be tailor-made for companies that want to market an OEM or customer-specific product.
+
+
+Objective of our project
+We intend in this project to assemble and create a tool that is portable, user friendly and low cost to detect in real time arrhythmia from the reading of an ECG of the patient and send a notification in the form of an sms to the patient in case of dysfunction of the heart. 
+ 

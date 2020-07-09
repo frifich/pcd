@@ -1,0 +1,4 @@
+In each of the following steps, we will present the input and output of each phase of the Pan-Tompkins algorithm on 5200 samples of ECG records, that is 20 seconds of consecutive recording.
+
+In each phase we have plotted the result of the algorithm on "record 106" of the MIT BIH database, this is the recording of a 64 year old male with first degree Atrioventricular block.
+Also we have plotted the result of the algorithm on "record 100" of the MIT BIH database, this is the recording of a healthy 69 year old male. 
